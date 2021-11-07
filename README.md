@@ -1,6 +1,6 @@
 # svelte-image-magnifier
 
-> FUll Screen for react
+> Svelte Image Magnifier
 
 [![NPM](https://img.shields.io/npm/v/svelte-image-magnifier.svg)](https://www.npmjs.com/package/svelte-image-magnifier) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,10 +12,10 @@ npm install --save svelte-image-magnifier
 
 ## Usage
 
-```svelte
+```
 <script>
-	import Magnifier from 'svelte-image-magnifier'
-	export let name;
+ import Magnifier from 'svelte-image-magnifier'
+ export let name;
 </script>
 
 <main>
