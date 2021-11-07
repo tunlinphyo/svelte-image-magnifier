@@ -1,0 +1,28 @@
+{
+  "name": "svelte-image-magnifier",
+  "version": "1.0.0",
+  "description": "Image Magnifier for Svelte.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/Magnifier.svelte",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "author": "Tun Lin Phyo",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "rollup": "^2.59.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.44.1"
+  },
+  "files": [
+    "src",
+    "dist/index.js",
+    "dist/index.mjs"
+  ]
+}
